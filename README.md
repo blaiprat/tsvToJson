@@ -1,7 +1,7 @@
 TSV to JSON converter
 =====================
 
-Convert quickly from TSV to JSON using this online conversion tools, avaliable at http://http://blaiprat.github.io/tsvToJson
+Convert quickly from TSV to JSON using this online conversion tools, avaliable at http://blaiprat.github.io/tsvToJson
 
 
 
