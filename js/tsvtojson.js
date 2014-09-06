@@ -1,5 +1,3 @@
-
-
 $(function() {
     var $tsvToJson = $('#tsv-to-json'),
         $jsonToTsv = $('#json-to-tsv');
@@ -26,7 +24,7 @@ $(function() {
         // Helper function to remove quotes
         // and parse numeric values
         var removeQuotes = function(string){
-            string = string.replace(/['"]/g,'');
+            string = string.replace(/(['"])/g, "\\$1");
             if (!isNaN(string)){
                 string = parseFloat(string);
             }
@@ -83,5 +81,4 @@ $(function() {
 
 
 });
-
 
