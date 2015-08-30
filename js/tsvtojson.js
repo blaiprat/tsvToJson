@@ -1,5 +1,3 @@
-
-
 $(function() {
     var $tsvToJson = $('#tsv-to-json'),
         $jsonToTsv = $('#json-to-tsv');
@@ -83,5 +81,4 @@ $(function() {
 
 
 });
-
 
